@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, html {
+  overflow-x: hidden; 
+  width: 100%;
+  max-width: 100vw; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.movie-grid {
+  display: flex !important; 
+  flex-wrap: wrap !important; 
+  gap: 20px; 
+  justify-content: center; 
+  padding: 20px;
+  /* background-color: #121212;  */
+}
+
+.movie-card {
+  background-color: #1e1e1e !important; 
+  color: white; 
+  border-radius: 10px; 
+  width: 300px; 
+  height: 300px; 
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.movie-card img {
+  width: 100%; 
+  height: 180px; 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+/* 
+this Project by React.js and it contain of Home page has all movies or Collection of movies any card has some of movies and if you need to see your favorite movie click on button (Add) and search any movie and you can add any movie in WatchList or Watched
+*/
